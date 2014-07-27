@@ -11,7 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
     m <<- NULL
   }
   get <- function() x
-  setmatrix <- function(mean) m <<- mean
+  setmatrix <- function(matrix) m <<- matrix
   getmatrix <- function() m
   list(set = set, get = get,
        setmatrix = setmatrix,
